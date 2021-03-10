@@ -6,6 +6,8 @@ import {
   UpdateDateColumn
 } from 'typeorm';
 
+// Campos de endereço seguem nomenclatura do viacep.com.br
+
 @Entity()
 export class User {
 
@@ -29,6 +31,27 @@ export class User {
 
   @Column()
   phone: string;
+
+  @Column()
+  cep: string;
+
+  @Column()
+  logradouro: string;
+
+  @Column({ nullable: true })
+  complemento: string;
+
+  @Column()
+  number: string;
+
+  @Column()
+  bairro: string;
+
+  @Column()
+  localidade: string;
+
+  @Column()
+  uf: string;
 
   @CreateDateColumn()
   created_at: Date;
