@@ -130,7 +130,7 @@ A API ficará disponível no endereço http://localhost:3333
         "phone":"(92) 98811-2989",
         "cep":"69008-110",
         "logradouro":"Rua Nova Mutum",
-        "complemento":"",
+        "complemento":"", // Opcional
         "number":"57",
         "bairro":"Colônia Antônio Aleixo",
         "localidade":"Manaus",
