@@ -15,6 +15,7 @@ Este projeto foi desenvolvido por **Vinícius Coelho** como resposta ao desafio 
 -  [Express][express]
 -  [TypeORM][typeorm]
 -  [TypeScript][ts]
+-  [Cors][cors]
 -  [SQLite3][sqlite]
 -  [Visual Studio Code][vc] com [EditorConfig][vceditconfig]
 
@@ -56,3 +57,4 @@ Made with ♥ by Vinicius Coelho :wave: [Get in touch!](https://www.linkedin.com
 [typeorm]: https://typeorm.io/
 [ts]: https://www.typescriptlang.org/
 [sqlite]: https://www.sqlite.org/
+[cors]: https://www.npmjs.com/package/cors
