@@ -42,7 +42,7 @@ export async function save(request: Request, response: Response, next: NextFunct
 
     const result = await userRespository.save(user);
 
-    const token = jwt.sign(String(result.id), process.env.APP_SECRET);
+    const token = jwt.sign(String(result.id), 'APP_SECRET_EXAMPLE');
 
     result.password = undefined;
 
