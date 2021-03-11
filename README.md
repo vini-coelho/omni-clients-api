@@ -22,7 +22,7 @@ Este projeto foi desenvolvido por **Vinícius Coelho** como resposta ao desafio 
 ## :information_source: Como utilizar
 
 Para clonar e rodar esta aplicação, voce vai precisar de [Git](https://git-scm.com), [Node.js v14.15.4+][nodejs] e [Yarn v1.22+][yarn] instalados na sua máquina.
-A aplicação utiliza SQLite como banco de dados, e todos os dados são armazenados no arquivo [database.sql](./src/database/database.sql). Caso queira utilizar um arquivo diferente, lembre-se de atualizar o caminho relativo na chave *database* do arquivo de configuração [ormconfig.js](./src/../ormconfig.js).
+A aplicação utiliza SQLite como banco de dados, e todos os dados são armazenados no arquivo `src/database/database.sql`. Caso queira utilizar um arquivo diferente, lembre-se de atualizar o caminho relativo na chave *database* do arquivo de configuração `ormconfig.js`
 
 No seu Terminal ou Console, siga os passos:
 
