@@ -9,7 +9,7 @@
 
 ## :rocket: Tecnologias utilizadas
 
-Este projeto foi desenvolvido por **Vinícius Coelho** como resposta ao desafio proposto no processo de seleção para a vaga de *Software Engineer* da **Bemol Digital**, utilizando as seguintes tecnologias:
+Este projeto foi desenvolvido por **Vinícius Coelho** como parte da resposta ao desafio proposto no processo de seleção para a vaga de *Software Engineer* da **Bemol Digital**, utilizando as seguintes tecnologias:
 
 -  [NodeJS][nodejs]
 -  [Express][express]
@@ -105,7 +105,7 @@ A API ficará disponível no endereço http://localhost:3333
   ```
 
   ### **2. Cadastrar novo Usuário**
-  Salva um novo usuário no banco de dados.
+  Salva um novo usuário no banco de dados e retorna os dados cadastrados, jutamente com um token JWT, em formato JSON.
 
 * **URL**
 
@@ -169,8 +169,8 @@ A API ficará disponível no endereço http://localhost:3333
 
 * **Resposta de Erro:**
 
-  * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "User doesn't exist" }`
+  * **Code:** 400 BAD REQUEST <br />
+    **Content:** `{ error : "User already exists" }`
 
 * **Exemplo de requisiçã0 com [Axios]([http://](https://github.com/axios/axios)):**
 
