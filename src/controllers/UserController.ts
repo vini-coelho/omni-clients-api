@@ -52,11 +52,3 @@ export async function save(request: Request, response: Response, next: NextFunct
   }
 
 }
-
-export async function remove(request: Request, response: Response, next: NextFunction) {
-  const userRepository = getRepository(User);
-
-  let userToRemove = await userRepository.findOne(request.params.id);
-  await userRepository.remove(userToRemove);
-}
-
