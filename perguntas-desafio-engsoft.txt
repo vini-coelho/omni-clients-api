@@ -1,0 +1,21 @@
+1. A solução deve ser disponibilizada em Cloud ou On-premise?
+
+R: Em Cloud, tendo em vista que se faz necessário prover uma estrutura escalável de alta disponibilidade para possiblitar a implementação do conceito de Omnichannel.
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa
+solução, responda qual ferramenta acreditas ser apropriada para o controle de
+tarefas da equipe, a ferramenta é ágil?
+
+R: O SCRUM é  ferramenta mais adequada, por ser uma ferramenta ágil que possibilita a a divisão do entregável final em features menores, que podem ser delegadas separadamente a cada desenvolvedor de forma simultânea.
+
+3. Você se sente capaz de liderar esta equipe? Por quê?
+
+R: Sim. Por conhecer o End-to-end do fluxo solicitado, os requerimentos para cada bloco a ser desenvolvido e os princípios da ferramenta SCRUM, o que possibilita a estruturação e organização em ordem de prioridades de um backlog de tarefas a serem executadas sua correta assignação.
+
+4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria?
+
+Implementação de padronização de código com ESLint e implementação de testes automatizados na API.
+
+5. Acha válido esse desafio para o processo que está participando?
+
+Sim, pois explora conceitos fundamentais dos processos de arquitetura e desenvolvimento de software em um projeto simples.
