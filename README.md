@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">
-  Sistema escalável de cadastro de usuários construído com Express & TypeORM :satellite:
+  API REST escalável de cadastro de usuários construída com Express & TypeORM :satellite:
 </h4>
 
 ## :rocket: Tecnologias utilizadas
